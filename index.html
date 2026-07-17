@@ -39,14 +39,16 @@
         <div id="final-text" class="final-text" style="display: none">
   <strong>Yay! Choose a slot:</strong>
   <div style="display: flex; gap: 10px; margin-top: 10px;">
-    <a href="https://www.tgv.com.my/" target="_blank" style="text-decoration: none; color: inherit;">
-      <button class="pixel-btn">Pavi BJ (Deluxe) - 1:30 PM</button>
-    </a>
-    <a href="https://www.gsc.com.my/" target="_blank" style="text-decoration: none; color: inherit;">
-      <button class="pixel-btn">Midvalley (Atmos) - 12:50 PM</button>
-    </a>
-  </div>
-</div>
+            <button class="pixel-btn" onclick="showMap('pavi-seats.jpg')">Pavi BJ (Deluxe) - 1:30 PM</button>
+            <button class="pixel-btn" onclick="showMap('midvalley-seats.jpg')">Midvalley (Atmos) - 12:50 PM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="image-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:1000;" onclick="this.style.display='none'">
+        <img id="modal-img" src="" style="max-width:90%; max-height:80%; border:5px solid white;">
+    </div>
      
     <script src="script.js"></script>
   </body>
