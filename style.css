@@ -137,3 +137,19 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+.pixel-btn {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+    background: #fff0f5;
+    border: 2px solid #ff4d6d;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.pixel-btn:hover {
+    transform: scale(1.05);
+    background: #ffc2d1;
+}
