@@ -70,3 +70,10 @@ yesBtn.addEventListener("click", () => {
 
     finalText.style.display = "block";
 });
+function showMap(imageName) {
+    const modal = document.getElementById("image-modal");
+    const modalImg = document.getElementById("modal-img");
+    
+    modalImg.src = imageName; // Sets the correct photo
+    modal.style.display = "flex"; // Shows the modal
+}
